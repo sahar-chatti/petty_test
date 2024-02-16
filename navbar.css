@@ -1,0 +1,35 @@
+.header{
+    position: fixed ;   
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background:rgb(255, 255, 255) ;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+}   
+@media (min-width: 768px){
+
+.NavBar{
+     position: absolute; 
+       background: rgb(255, 255, 255);
+       height: max-content;
+       width: 80%;
+       border-radius: 1rem;
+       top: 6rem;
+       left: 50%;
+       transform: translate(-50%);
+       z-index: 2000;
+       box-shadow:0 2px 4px rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+ }}
+ .navLists{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin:auto ;
+    padding: .5rem 0;}
+    .navItem{
+        color: #020202;
+       }
+       

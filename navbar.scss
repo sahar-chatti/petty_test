@@ -1,0 +1,56 @@
+:root{
+    --PrimaryColor:  rgb(13, 165, 240);
+    --SecondaryColor : rgb(145, 217, 246);
+    --GradientColor : linear-gradient(to right, rgb(13, 108, 210), rgb(146, 183, 237)); /* Corrected linear-gradient spelling */
+    --whiteColor: rgb(255, 255, 255);
+    --blackColor: rgb(0, 0, 0);
+    --textColor: rgb(186, 188, 190);
+    --whiteColorDeam : hsl(0,0%,93%); /* Corrected hsl spelling */
+    --greyText: rgb(231, 222, 222);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG:rgb(255,255,255);
+}
+     
+
+.header{
+ position: fixed ;   
+ display: flex;
+ align-items:center ;
+ justify-content: center;
+ background:rgb(255, 255, 255) ;
+ width: 100%;
+ padding: 1rem;
+ z-index: 1000;
+ 
+
+ @media screen and (max-width: 768px) {
+    .NavBar{
+       position: absolute; 
+       background: rgb(255, 255, 255);
+       height: max-content;
+       width: 80%;
+       border-radius: 1rem;
+       top: 6rem;
+       left: 50%;
+       transform: translate(-50%);
+       z-index: 2000;
+       box-shadow:0 2px 4px rgba($color: 2, 15 ,29 , 0.904);
+       transition: .3s ease-in-out;
+
+
+       .navLists{
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       margin:auto ;
+       padding: .5rem 0;
+
+
+       .navItem{
+        color: #020202;
+       }
+       }
+    }
+ }
+}

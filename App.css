@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    background-color: rgb(206, 210, 206);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+/*colors and styling*/
+
+ :root{
+    --PrimaryColor:  rgb(13, 165, 240);
+    --SecondaryColor : rgb(145, 217, 246);
+    --GradientColor : linear-gradient(to right, rgb(13, 108, 210), rgb(146, 183, 237)); /* Corrected linear-gradient spelling */
+    --whiteColor: rgb(255, 255, 255);
+    --blackColor: rgb(0, 0, 0);
+    --textColor: rgb(186, 188, 190);
+    --whiteColorDeam : hsl(0,0%,93%); /* Corrected hsl spelling */
+    --greyText: rgb(231, 222, 222);
+    --inputColor: rgb(239,239,239);
+    --bodyColor: rgb(240,240,246);
+    --cardBG:rgb(255,255,255);
+}
+     
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style-type: style none;
+}
+.section{
+    padding: 4rem 0 2rem;
+}
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+}
+.btn{
+    padding: 1% 1.5rem;
+    background: var(--GradientColor);
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor:pointer ;
+}
+.btn a{
+    color: rgb(251, 251, 255);
+    font-weight: 500;
+    background-color:var(--GradientColor);
+}
+
+.btn:hover{
+    background: var(--SecondaryColor);
+}
+img , video{
+    width: 100%;
+    height: auto;
+}
+input{
+    font-size: 100%;
+}
+body{
+    background: var(--bodyColor);
+}
